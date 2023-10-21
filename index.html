@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-group">
+            <input type="text" id="firstName" placeholder="First Name">
+            <input type="text" id="middleName" placeholder="Middle Name">
+            <input type="text" id="lastName" placeholder="Last Name">
+        </div>
+
+        <div class="input-group">
+            <input type="number" id="age" placeholder="Age">
+            <input type="text" id="gender" placeholder="Gender">
+            <input type="date" id="birthday" placeholder="Birthday">
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="course" placeholder="Course">
+            <input type="text" id="schoolYear" placeholder="School Year">
+        </div>
+
+        <button id="submitBtn">Submit</button>
+    </div>
+    
+    <input type="text" id="searchInput" placeholder="Type to search">
+    
+    <table class="output">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Middle Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Birthday</th>
+                <th>Course</th>
+                <th>School Year</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
